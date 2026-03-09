@@ -33,7 +33,7 @@
 
 // ─── TYPEWRITER ──────────────────────────────────────
 (function initTypewriter() {
-    var phrases  = ['Full Stack Dev', 'Server (Linux e Windows)', 'Lógica de Programação', 'Protheus'];
+    var phrases  = ['Full Stack Dev', 'Server (Linux e Windows)', 'Lógica de Programação', 'Protheus', 'Webservices'];
     var target   = document.getElementById('tw');
     var phraseIndex  = 0;
     var charIndex    = 0;
