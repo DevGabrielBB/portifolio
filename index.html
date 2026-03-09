@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Batista — Técnico em Serviços Cloud</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,200;9..144,300;9..144,400;9..144,700&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header id="hdr">
+        <div class="nav-inner">
+            <div class="nav-logo">G<span>.</span>Batista</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+            <a href="#contato" class="nav-cta">Contato</a>
+            <button class="hamburger" id="ham" aria-label="Menu"><i class="bi bi-list"></i></button>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="mob-menu" id="mob">
+        <button class="mob-close" id="mobClose"><i class="bi bi-x-lg"></i></button>
+        <a href="#inicio" class="ml">Início</a>
+        <a href="#sobre" class="ml">Sobre</a>
+        <a href="#habilidades" class="ml">Habilidades</a>
+        <a href="#experiencia" class="ml">Experiência</a>
+        <a href="#projetos" class="ml">Projetos</a>
+        <a href="#contato" class="ml">Contato</a>
+    </div>
+
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="inicio">
+            <div class="hero-wm">CLOUD</div>
+            <div class="container hero-inner">
+                <div class="hero-tag">
+                    <span class="dot"></span>
+                    Técnico em Serviços Cloud · TOTVS S.A.
+                </div>
+                <h1 class="hero-name">
+                    Gabriel
+                    <em>Batista</em>
+                </h1>
+                <p class="hero-sub">
+                    São Paulo, Brasil
+                    <span class="sep">/</span>
+                    <span id="tw" class="typewriter">Infra Protheus</span>
+                </p>
+                <div class="hero-actions">
+                    <a href="https://www.linkedin.com/in/gabriel-batista-42844b192/" target="_blank" class="btn-gold">
+                        <i class="bi bi-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/DevGabrielBB" target="_blank" class="btn-ghost">
+                        <i class="bi bi-github"></i> GitHub
+                    </a>
+                    <a href="#contato" class="btn-ghost">
+                        <i class="bi bi-envelope"></i> Fale comigo
+                    </a>
+                </div>
+            </div>
+            <div class="hero-scroll">Scroll</div>
+        </section>
+
+        <!-- ===== SOBRE ===== -->
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <div class="sobre-grid">
+
+                    <!-- Card de informações (substituindo a foto) -->
+                    <div class="info-card reveal">
+
+                        <!-- Inicial do nome com destaque -->
+                        <div class="info-card-avatar">GB</div>
+
+                        <!-- Linha: cargo atual -->
+                        <div class="info-card-row">
+                            <i class="bi bi-briefcase-fill info-card-icon"></i>
+                            <div>
+                                <div class="info-card-lbl">Cargo</div>
+                                <div class="info-card-val">Técnico em Serviços Cloud</div>
+                            </div>
+                        </div>
+
+                        <!-- Linha: empresa -->
+                        <div class="info-card-row">
+                            <i class="bi bi-building info-card-icon"></i>
+                            <div>
+                                <div class="info-card-lbl">Empresa</div>
+                                <div class="info-card-val">TOTVS S.A.</div>
+                            </div>
+                        </div>
+
+                        <!-- Linha: localização -->
+                        <div class="info-card-row">
+                            <i class="bi bi-geo-alt-fill info-card-icon"></i>
+                            <div>
+                                <div class="info-card-lbl">Localização</div>
+                                <div class="info-card-val">São Paulo, SP — Brasil</div>
+                            </div>
+                        </div>
+
+                        <!-- Linha: experiência -->
+                        <div class="info-card-row">
+                            <i class="bi bi-calendar3 info-card-icon"></i>
+                            <div>
+                                <div class="info-card-lbl">Experiência</div>
+                                <div class="info-card-val">+3 anos em TI</div>
+                            </div>
+                        </div>
+
+                        <!-- Linha: disponibilidade -->
+                        <div class="info-card-row">
+                            <i class="bi bi-circle-fill info-card-icon info-card-icon--green"></i>
+                            <div>
+                                <div class="info-card-lbl">Status</div>
+                                <div class="info-card-val">Aberto a oportunidades</div>
+                            </div>
+                        </div>
+
+                    </div><!-- /info-card -->
+
+                    <!-- Texto sobre -->
+                    <div class="reveal">
+                        <div class="label">Sobre mim</div>
+                        <h2 class="sec-title">Tecnologia é<br><em>minha paixão.</em></h2>
+                        <p>Sou Gabriel Batista, profissional de TI com trajetória que começou na adolescência. Atualmente atuo como <strong>Técnico em Serviços Cloud na TOTVS</strong> — a maior empresa de tecnologia do Brasil — com foco em infraestrutura Protheus, configuração de WebServices e suporte técnico avançado em ambiente cloud.</p>
+                        <p>Tenho experiência em suporte N1/N2/Pleno, Active Directory, Azure, sistemas hospitalares e ambientes corporativos de grande porte. Estou em constante evolução, com interesse crescente em Segurança da Informação e desenvolvimento de software.</p>
+                        <p>Formado em Análise e Desenvolvimento de Sistemas pela Universidade Cidade de São Paulo. Apaixonado por desafios, aprendizado contínuo e soluções que geram valor real.</p>
+                        <div class="social-row">
+                            <a href="https://www.linkedin.com/in/gabriel-batista-42844b192/" target="_blank" class="soc-btn" title="LinkedIn">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/DevGabrielBB" target="_blank" class="soc-btn" title="GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="mailto:bielbatista.bbc@gmail.com" class="soc-btn" title="E-mail">
+                                <i class="bi bi-envelope-fill"></i>
+                            </a>
+                        </div>
+                    </div><!-- /texto sobre -->
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== HABILIDADES ===== -->
+        <section class="habilidades" id="habilidades">
+            <div class="container">
+                <div class="label reveal">Stack & Ferramentas</div>
+                <h2 class="sec-title reveal">Minhas <em>Habilidades</em></h2>
+                <div class="skills-grid">
+                    <div class="skill-box reveal">
+                        <div class="skill-box-icon"><i class="bi bi-cloud-fill"></i></div>
+                        <div class="skill-box-title">Cloud & Infraestrutura</div>
+                        <div class="tags">
+                            <span class="tag">Azure</span>
+                            <span class="tag">Protheus</span>
+                            <span class="tag">T-Cloud</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Windows Server</span>
+                            <span class="tag">Active Directory</span>
+                            <span class="tag">REST</span>
+                            <span class="tag">SOAP</span>
+                            <span class="tag">WebServices</span>
+                            <span class="tag">HTTP/HTTPS</span>
+                            <span class="tag">Office 365</span>
+                        </div>
+                    </div>
+                    <div class="skill-box reveal">
+                        <div class="skill-box-icon"><i class="bi bi-code-slash"></i></div>
+                        <div class="skill-box-title">Desenvolvimento</div>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Spring Boot</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">ADVPL</span>
+                            <span class="tag">TLPP</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Lógica de Programação</span>
+                            <span class="tag">VSCode</span>
+                        </div>
+                    </div>
+                    <div class="skill-box reveal">
+                        <div class="skill-box-icon"><i class="bi bi-wrench-adjustable"></i></div>
+                        <div class="skill-box-title">Ferramentas & Suporte</div>
+                        <div class="tags">
+                            <span class="tag">Zendesk</span>
+                            <span class="tag">Genesys</span>
+                            <span class="tag">Service Now</span>
+                            <span class="tag">MobaXterm</span>
+                            <span class="tag">ITSM</span>
+                            <span class="tag">Printer Server</span>
+                            <span class="tag">Switch Management</span>
+                            <span class="tag">Inglês Técnico</span>
+                            <span class="tag">Espanhol Básico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIÊNCIA ===== -->
+        <section class="experiencia" id="experiencia">
+            <div class="container">
+                <div class="label reveal">Trajetória profissional</div>
+                <h2 class="sec-title reveal">Experiência</h2>
+                <div class="timeline">
+
+                    <div class="tl-item reveal">
+                        <div class="tl-date">Jul. 2025 — Presente</div>
+                        <div class="tl-company">TOTVS S.A.</div>
+                        <div class="tl-role">Técnico em Serviços Cloud — Protheus</div>
+                        <ul class="tl-list">
+                            <li>Suporte e gerenciamento de infraestrutura Protheus em ambiente cloud</li>
+                            <li>Configuração de WebServices (REST, SOAP, PORTAL) nos arquivos INI dos servidores</li>
+                            <li>Compilações e deploy de pacotes via VSCode nos ambientes dos clientes</li>
+                            <li>Criação e manutenção de scripts no Linux para automatização de tarefas</li>
+                            <li>Atendimento via Zendesk (chat e tickets) e Genesys (telefone)</li>
+                            <li>Acesso e gerenciamento de bases de clientes via T-Cloud</li>
+                        </ul>
+                        <span class="tl-badge">Maior empresa de tecnologia do Brasil</span>
+                    </div>
+
+                    <div class="tl-item reveal">
+                        <div class="tl-date">Set. 2024 — Jun. 2025</div>
+                        <div class="tl-company">Rede D'Or São Luiz</div>
+                        <div class="tl-role">Analista de Suporte Pleno</div>
+                        <ul class="tl-list">
+                            <li>Suporte técnico avançado a usuários e sistemas hospitalares de grande porte</li>
+                            <li>Rotinas de Active Directory e gestão de usuários corporativos</li>
+                            <li>Gerenciamento de Switch via MobaXterm</li>
+                            <li>Atendimento e gestão de chamados via Service Now (ITSM)</li>
+                            <li>Suporte a sistemas Web Ris, Wareline e Tasy</li>
+                            <li>Printer Server e configuração de impressoras</li>
+                        </ul>
+                    </div>
+
+                    <div class="tl-item reveal">
+                        <div class="tl-date">Mar. 2024 — Set. 2024</div>
+                        <div class="tl-company">HexaIT Service Solutions</div>
+                        <div class="tl-role">Suporte Técnico T.I.</div>
+                        <ul class="tl-list">
+                            <li>Instalação e configuração de máquinas no domínio</li>
+                            <li>Suporte a sistemas hospitalares (Web Ris, Wareline, Tasy)</li>
+                            <li>Configuração de impressoras e periféricos</li>
+                        </ul>
+                    </div>
+
+                    <div class="tl-item reveal">
+                        <div class="tl-date">Jun. 2022 — Mar. 2024</div>
+                        <div class="tl-company">Cibrat Recuperação de Ativos</div>
+                        <div class="tl-role">Estagiário T.I. → Service Desk</div>
+                        <ul class="tl-list">
+                            <li>Banco de dados SQL — consultas, controle e geração de relatórios</li>
+                            <li>Criação e administração de logins no Active Directory e Azure</li>
+                            <li>Controle de equipamentos e gestão de aquisições</li>
+                            <li>Suporte técnico a clientes e funcionários</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJETOS ===== -->
+        <section class="projetos" id="projetos">
+            <div class="container">
+                <div class="label reveal">Portfólio</div>
+                <h2 class="sec-title reveal">Projetos</h2>
+                <div class="proj-grid">
+
+                    <div class="proj-card reveal">
+                        <div class="proj-thumb">
+                            <i class="bi bi-cart3"></i>
+                        </div>
+                        <div class="proj-body">
+                            <div class="proj-type">Front-end · Web</div>
+                            <h3 class="proj-title">Site de Vendas</h3>
+                            <p class="proj-desc">Plataforma de e-commerce desenvolvida com HTML5, CSS3 e JavaScript puro. Interface responsiva com catálogo de produtos e layout moderno.</p>
+                            <div class="proj-techs">
+                                <span class="proj-tech">HTML5</span>
+                                <span class="proj-tech">CSS3</span>
+                                <span class="proj-tech">JavaScript</span>
+                            </div>
+                            <div class="proj-links">
+                                <!-- Link para o projeto ao vivo -->
+                                <a href="https://devgabrielbb.github.io/Landing-Page-responsiva/" target="_blank" class="proj-link">
+                                    <i class="bi bi-box-arrow-up-right"></i> Ver projeto
+                                </a>
+                                <!-- Link para o código no GitHub -->
+                                <a href="https://github.com/DevGabrielBB/Landing-Page-responsiva" target="_blank" class="proj-link">
+                                    <i class="bi bi-github"></i> Ver código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="proj-card cs reveal">
+                        <div class="proj-thumb">
+                            <i class="bi bi-hourglass-split"></i>
+                            <span class="cs-label">Em breve</span>
+                        </div>
+                        <div class="proj-body">
+                            <div class="proj-type">Próximo projeto</div>
+                            <h3 class="proj-title">Em desenvolvimento</h3>
+                            <p class="proj-desc">Novos projetos chegando em breve.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTATO ===== -->
+        <section class="contato" id="contato">
+            <div class="container">
+                <div class="label reveal">Vamos conversar</div>
+                <h2 class="sec-title reveal">Fale <em>Comigo</em></h2>
+                <div class="ct-grid">
+                    <div class="reveal">
+                        <h3>Aberto a oportunidades<br>e novas conexões.</h3>
+                        <p>Tem uma proposta, projeto ou quer trocar uma ideia sobre tecnologia? É só me mandar uma mensagem. Respondo pelo e-mail ou pelo LinkedIn.</p>
+                        <div class="ct-row">
+                            <div class="ct-icon"><i class="bi bi-envelope-fill"></i></div>
+                            <div>
+                                <div class="ct-lbl">E-mail</div>
+                                <a href="mailto:bielbatista.bbc@gmail.com" class="ct-val">bielbatista.bbc@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="ct-row">
+                            <div class="ct-icon"><i class="bi bi-linkedin"></i></div>
+                            <div>
+                                <div class="ct-lbl">LinkedIn</div>
+                                <a href="https://www.linkedin.com/in/gabriel-batista-42844b192/" target="_blank" class="ct-val">gabriel-batista-42844b192</a>
+                            </div>
+                        </div>
+                        <div class="ct-row">
+                            <div class="ct-icon"><i class="bi bi-github"></i></div>
+                            <div>
+                                <div class="ct-lbl">GitHub</div>
+                                <a href="https://github.com/DevGabrielBB" target="_blank" class="ct-val">DevGabrielBB</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="ct-form reveal" action="https://formsubmit.co/bielbatista.bbc@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Contato pelo Portfólio">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="f-row">
+                            <div class="f-grp">
+                                <label class="f-lbl" for="nome">Nome</label>
+                                <input type="text" id="nome" name="nome" class="f-input" placeholder="Seu nome" required>
+                            </div>
+                            <div class="f-grp">
+                                <label class="f-lbl" for="email">E-mail</label>
+                                <input type="email" id="email" name="email" class="f-input" placeholder="seu@email.com" required>
+                            </div>
+                        </div>
+                        <div class="f-grp">
+                            <label class="f-lbl" for="assunto">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" class="f-input" placeholder="Sobre o que é?">
+                        </div>
+                        <div class="f-grp">
+                            <label class="f-lbl" for="msg">Mensagem</label>
+                            <textarea id="msg" name="mensagem" class="f-textarea" placeholder="Sua mensagem..." required></textarea>
+                        </div>
+                        <button type="submit" class="f-submit">
+                            <i class="bi bi-send"></i> Enviar mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="ft-inner">
+                <p class="ft-copy">© 2026 Gabriel Batista · Feito com HTML, CSS & JS.</p>
+                <div class="ft-links">
+                    <a href="https://github.com/DevGabrielBB" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/gabriel-batista-42844b192/" target="_blank">LinkedIn</a>
+                    <!-- E-mail de contato -->
+                    <a href="mailto:bielbatista.bbc@gmail.com">E-mail</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS externo -->
+    <script src="src/javascript/script.js"></script>
+
+</body>
+</html>
